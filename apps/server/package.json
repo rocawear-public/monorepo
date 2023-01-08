@@ -1,0 +1,26 @@
+{
+  "name": "@habbo-extension/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@habbo-extension/extension": "*",
+    "@habbo-extension/shared": "*",
+    "@habbo-extension/trpc": "*",
+    "@trpc/server": "^10.8.1",
+    "superjson": "^1.12.1",
+    "ws": "^8.12.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.4"
+  }
+}
